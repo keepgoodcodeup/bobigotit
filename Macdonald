@@ -1,0 +1,7 @@
+{
+    "name": "Password Reset",
+    "subject": "Your account has been locked",
+    "text": "Dear {{.FirstName}},\n\nWe have detected some suspicious activity on your account and have temporarily locked it for your security. To reset your password and regain access, please click on the link below:\n\nhttps://example.com/reset/{{.URL}}\n\nThis link will expire in 24 hours.\n\nSincerely,\n\nThe IT Support Team",
+    "html": "<p>Dear {{.FirstName}},</p>\n<p>We have detected some suspicious activity on your account and have temporarily locked it for your security. To reset your password and regain access, please click on the link below:</p>\n<p><a href=\"https://example.com/reset/{{.URL}}\">https://example.com/reset/{{.URL}}</a></p>\n<p>This link will expire in 24 hours.</p>\n<p>Sincerely,</p>\n<p>The IT Support Team</p>",
+    "attachments": []
+}
